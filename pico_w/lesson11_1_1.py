@@ -1,9 +1,3 @@
-#from machine import Pin
-
-#red_led = Pin(15,mode=Pin.OUT)
-#red_led.value(1)
-#red_led.value(0)
-
 from machine import Pin
 import time
 
@@ -15,3 +9,4 @@ while True:
         red_led.value(1)
     else:
         red_led.value(0)
+        
